@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap');
+
+
+
+*{
+
+    box-sizing:border-box;
+    margin:0;  
+}
+
+body{
+
+    font-family:'Quicksand', sans-serif;
+}
+
+header{
+    background-color:#FFCCFF;
+    border-bottom:60px groove gold;    
+   }
+
+.topcontents{
+
+    overflow:hidden;
+    height:180px;
+    position:relative;    
+}
+
+.header-icon{
+  text-align:center;     
+  padding:20px 0 20px 0; 
+}
+
+.header-icon img{
+   width:80px;
+    border-radius:50%     
+}
+
+.header-icon p{
+
+    font-size:45px;
+    letter-spacing:15px;   
+}
+
+.header-right-icon{
+    display:inline;
+    float:right;
+    margin:0 20px 20px 0;
+    position:absolute;
+    right:0;
+    top:-20px;  
+}
+
+.header-right-icon img{
+
+    width:280px;
+
+}
+
+.header-right-icon img:hover{
+
+    opacity:0;
+}
+
+.main{
+    position:relative;
+}   
+
+.main p{
+    
+    font-size:50px;
+    position:absolute;
+    left: 800px;
+    top:690px;
+    opacity:0.7;   
+}
+
+.menu{
+  background-color:black;
+  overflow:auto;  
+}
+
+.menu a{
+
+  color:white;
+  text-decoration:none; 
+}
+
+.menu a:hover{
+
+    color:blue;
+}
+
+
+h1{
+
+  font-size:50px;
+    color:white; 
+
+}
+
+.menu ul {
+    color:white;
+    
+}
+
+
+.menu ul li{
+    float:right;
+  display:block;
+  letter-spacing:10px; 
+  margin:0px 40px 20px 0px; 
+    font-size:20px;    
+    
+}
+
+.toys{
+  background-image:url(../img_toys/toyback.jpg); 
+  background-size:cover; 
+  height:1300px;
+}
+
+.toys h1{
+
+    padding-top:30px; 
+    width:70%;
+    color:black;
+    text-align:center;   
+     
+}
+
+.toys a{
+     
+     color:red; 
+     font-size:22px;
+     text-decoration:none; 
+}
+
+.toy{
+
+    float:left;
+    padding:40px 0px 40px 280px; 
+    width:70%; 
+     
+}
+
+.toy img{
+   
+   width:350px;
+   height:250px;
+   border:5px groove #FF9900;  
+}
+
+.toy p{
+
+    padding-top:10px; 
+    font-family:'Quicksand', sans-serif;
+    font-size: 22px;
+
+}
+
+footer{
+
+  background:#FFFF99;
+  overflow:hidden;
+}
+
+.undercontents{
+    
+  height:140px;
+  position:relative; 
+}
+
+.footer-icon{
+
+   text-align:center;
+   padding:20px 0px 20px 0;
+
+}
+
+.footer-icon img{
+   
+ width:100px;
+
+}
+
+h4{
+  font-size:24px;
+}
